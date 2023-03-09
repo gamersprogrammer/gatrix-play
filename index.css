@@ -277,11 +277,9 @@ ul li a:hover{
   margin-top: 15px;
   margin-left: -15px;
  }
-.column {
-  width: 100%
+html {
+ height: 100%;
 }
-@media (min-width: 600px) {
-  .column {
-    width: 50%; 
-  }
+body{
+ min-height: 100%; 
 }
