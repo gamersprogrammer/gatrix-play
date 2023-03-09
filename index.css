@@ -277,9 +277,9 @@ ul li a:hover{
   margin-top: 15px;
   margin-left: -15px;
  }
-html {
+.html {
  height: 100%;
 }
-body{
+.body{
  min-height: 100%; 
 }
