@@ -34,6 +34,8 @@ padding: 0;
   width: 400px;
   float: left;
   height: 70px;
+  background: black;
+  border-bottom: solid orange 4px;
 }
 
 ul{
