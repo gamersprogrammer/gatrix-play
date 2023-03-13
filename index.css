@@ -28,6 +28,8 @@ padding: 0;
   font-family: Arial;
   padding-left: 28px;
   float: left;
+  background: white;
+  border-bottom: solid orange;
 }
 
 .menu{
@@ -42,7 +44,6 @@ ul{
   float: left;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 ul li{
