@@ -288,7 +288,10 @@ ul li a:hover{
 /* For Desktop View */
 @media screen and (min-width: 1024px) {
   .body {
-    
+     background-color: red;
+    color: white;
+    width; 100%;
+    height: 100%;
   }
 }
  
@@ -298,6 +301,8 @@ and (max-device-width: 1024px) {
   .body {
     width: 400px;
     height: 400px;
+    background-color: red;
+    color: white;
   }
 }
  
@@ -307,22 +312,17 @@ and (orientation: portrait) {
   .body {
     width: 200px;
     height: 200px;
+    background-color: red;
+    color: white;
   }
 }
- 
-/* For Mobile Landscape View */
-@media screen and (max-device-width: 640px)
-and (orientation: landscape) {
-  .body {
-    width: 400px;
-    height: 200px;
-  }
-}
- 
+  
 /* For Mobile Phones Portrait or Landscape View */
 @media screen and (max-device-width: 640px) {
   .body {
-    width: 400px;
-    height: 200px;
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    color: white;
   }
 }
