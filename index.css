@@ -284,16 +284,10 @@ ul li a:hover{
   margin-top: 15px;
   margin-left: -15px;
  }
-.html {
- height: 100%;
-}
-.body{
- min-height: 100%; 
-}
 
 /* For Desktop View */
 @media screen and (min-width: 1024px) {
-  .body-div {
+  .body {
     
   }
 }
@@ -301,7 +295,7 @@ ul li a:hover{
 /* For Tablet View */
 @media screen and (min-device-width: 768px)
 and (max-device-width: 1024px) {
-  .body-div {
+  .body {
     width: 400px;
     height: 400px;
   }
@@ -310,7 +304,7 @@ and (max-device-width: 1024px) {
 /* For Mobile Portrait View */
 @media screen and (max-device-width: 480px)
 and (orientation: portrait) {
-  .body-div {
+  .body {
     width: 200px;
     height: 200px;
   }
@@ -319,7 +313,7 @@ and (orientation: portrait) {
 /* For Mobile Landscape View */
 @media screen and (max-device-width: 640px)
 and (orientation: landscape) {
-  .body-div {
+  .body {
     width: 400px;
     height: 200px;
   }
@@ -327,7 +321,7 @@ and (orientation: landscape) {
  
 /* For Mobile Phones Portrait or Landscape View */
 @media screen and (max-device-width: 640px) {
-  .body-div {
+  .body {
     width: 400px;
     height: 200px;
   }
