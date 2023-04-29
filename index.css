@@ -331,10 +331,12 @@ and (max-device-width: 1024px) {
   .par{
     height: 100%;
     font-size: 40px;
-    color: black;
+    color: white;
     position: absolute;
-    top: auto;
+    top: 0;
     left: 25%;
+    bottom: 50%;
+    right: 0;
   }
   .content h1{
   font-family: 'Times New Roman';
