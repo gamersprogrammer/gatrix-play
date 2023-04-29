@@ -344,7 +344,7 @@ and (max-device-width: 1024px) {
    bottom: 0;
    padding: 0 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     box-sizing: border-box;
     align-items: center;
     
