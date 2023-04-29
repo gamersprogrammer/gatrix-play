@@ -307,8 +307,7 @@ and (max-device-width: 1024px) {
 }
  
 /* For Mobile Portrait View */
-@media screen and (max-device-width: 480px)
-and (orientation: portrait) {
+@media screen and (max-device-width: 480px) {
   .body {
     width: 200px;
     height: 200px;
