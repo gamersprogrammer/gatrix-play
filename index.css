@@ -352,7 +352,9 @@ and (max-device-width: 1024px) {
   margin: 0;
   letter-spacing: 2px;
     font-weight: bold;
-    position: unset;
+    position: absolute;
+    top: auto;
+    right: 50%;
     
 }
 
