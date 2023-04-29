@@ -334,7 +334,7 @@ and (max-device-width: 1024px) {
     color: black;
     position: absolute;
     top: auto;
-    left: 75%;
+    left: 25%;
   }
   .content h1{
   font-family: 'Times New Roman';
@@ -343,8 +343,17 @@ and (max-device-width: 1024px) {
     font-weight: bold;
     position: absolute;
     top: auto;
-    left: 70%;
-    
-}
+    left: 30%;
+  }
+  .content .cn{
+  width: 160px;
+  height: 40px;
+  background: orange;
+  border: none;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+  transition: .4s ease; 
+  }
 
 }
