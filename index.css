@@ -333,12 +333,8 @@ and (max-device-width: 1024px) {
     font-size: 40px;
     color: black;
     position: absolute;
-    top: 40%;
-    left: auto;
-  }
-  .form {
-     width: 100%;
-   height: 100%; 
+    top: auto;
+    left: 75%;
   }
   .content h1{
   font-family: 'Times New Roman';
