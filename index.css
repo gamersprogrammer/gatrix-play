@@ -340,8 +340,8 @@ and (max-device-width: 1024px) {
   .form {
      width: 100%;
    height: 100%;
-   top: auto;
-   bottom: 0;
+   top: 0;
+   bottom: auto;
    padding: 0 10px;  
   }
 }
