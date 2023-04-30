@@ -337,5 +337,11 @@ and (max-device-width: 1024px) {
     top: auto;
     left: 30%;
   }
+  .menu{
+    font-size: 15px;
+  }
+  *{
+    box-sizing: border-box;
+  }
 
 }
