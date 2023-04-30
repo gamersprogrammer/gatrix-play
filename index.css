@@ -340,8 +340,9 @@ and (max-device-width: 1024px) {
   .menu{
     font-size: 15px;
   }
-  *{
-    box-sizing: border-box;
+ html{
+   border-box: none;
+   align-items: center;
   }
 
 }
