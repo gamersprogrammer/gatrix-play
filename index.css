@@ -247,23 +247,6 @@ ul li a:hover{
   padding-bottom: 10px;
   text-align: center;
 }
-
-.icons a{
-  text-decoration: none;
-  color: white;
-}
-
- .icons ion-icon{
-  color: white;
-  font-size: 30px;
-  padding-left: 14px;
-  padding-top: 5px;
- }
-
- .icons ion-icons:hover{
-  color: orange;
- } 
-
  .active{
   background: orange;
   display: block;
@@ -281,11 +264,35 @@ ul li a:hover{
   margin-left: -15px;
  }
 .icon{
-  color: white;
-  display: flex;
-  justify-content: space-evenly;
+ background-color: white;
+ border-radius: 20% solid orange;
+}
+.fa{
+  padding: 20px;
   text-decoration: none;
-  font-size: 20px
+  width: 50px;
+}
+.fa:hover{
+  opacity: 0.7;
+}
+.fa-facebook{
+  color: linear-gradient(180deg, blue 50%, white 50%);
+  border: none;
+}
+.fa-twitter{
+  color: rgb(255, 255, 204);
+  border: none;
+}
+.fa-instagram{
+  color: pink;
+  border: none;
+}
+.fa-google{
+  color: linear-gradient(180deg, red 25%, white 50%, red 25%);
+  border: none;
+}
+.fa-skype{
+  color: linear-gradient(180deg, blue 50%, white 50%);
 }
 
 /* For Desktop View */
