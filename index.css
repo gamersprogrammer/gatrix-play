@@ -280,7 +280,7 @@ ul li a:hover{
   font-size: 25px;
 }
 .fa-twitter{
-  background-color: blue;
+  color: blue;
   border: none;
 }
 .fa-instagram{
@@ -292,7 +292,7 @@ ul li a:hover{
   border: none;
 }
 .fa-skype{
-  color: white;
+  background-color: blue;
 }
 
 /* For Desktop View */
