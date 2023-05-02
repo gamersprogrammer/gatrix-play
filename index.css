@@ -266,6 +266,8 @@ ul li a:hover{
 .icon-section{
   width: 40%;
   height: auto;
+  align-items: center;
+  display: inline-block;
 }
 .icon-wrapper{
  display: inline-block;
@@ -294,11 +296,11 @@ ul li a:hover{
   border-radius: 25%;
 }
 .front{
-  background-color: #E05D5D;
+  background-color: orange;
   color: white;
 }
 .back{
-  background-color: #00A19D;
+  background-color: purple;
   color: white;
   transform: rotateY(180deg);
 }
@@ -307,7 +309,7 @@ ul li a:hover{
 }
 p{
   margin-top: 70px;
-  font-family: 'Satisfy', cursive;
+  font-family: cursive, sans-serif;
   font-size: 2vw;
   font-weight: bold;
 }
