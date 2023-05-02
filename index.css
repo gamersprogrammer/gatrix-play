@@ -264,8 +264,7 @@ ul li a:hover{
   margin-left: -15px;
  }
 .icon{
- background-color: white;
- border-radius: 20% solid orange;
+ display: inline-block;
 }
 .fa{
   padding: 20px;
