@@ -263,20 +263,19 @@ ul li a:hover{
   margin-top: 15px;
   margin-left: -15px;
  }
-.icon{
- display: inline-block;
-}
 .fa{
-  padding: 20px;
   text-decoration: none;
   width: 50px;
+  display: inline-block;
+  font-size: 20px;
 }
 .fa:hover{
   opacity: 0.7;
 }
 .fa-facebook{
-  color: linear-gradient(180deg, blue 50%, white 50%);
-  border: none;
+  color: blue;
+  border-radius: 50%;
+  background-color: white
 }
 .fa-twitter{
   color: rgb(255, 255, 204);
