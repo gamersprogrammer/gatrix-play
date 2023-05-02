@@ -277,9 +277,10 @@ ul li a:hover{
 .fa-facebook{
   color: blue;
   border: none;
+  font-size: 25px;
 }
 .fa-twitter{
-  color: rgb(255, 255, 204);
+  background-color: blue;
   border: none;
 }
 .fa-instagram{
