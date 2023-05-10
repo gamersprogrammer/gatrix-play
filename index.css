@@ -1,6 +1,6 @@
 *{
 margin: 0;
-padding: 10px 0;
+padding: 0;
 }
 body{
   background: rgba(204, 0, 0, 0.8);
@@ -274,7 +274,7 @@ ul li a:hover{
   margin-top: 15px;
   margin-left: -15px;
  } 
- @media screen and (orientation: portrait) and (max-width: 500px){
+ @media screen and (orientation: portrait) and (min-width: 500px){
   *{
     padding: 10px 0;
     margin: auto;
