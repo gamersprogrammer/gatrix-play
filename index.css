@@ -4,6 +4,8 @@ padding: 0;
 }
 body{
   background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fpurple-pink-background&psig=AOvVaw0Zd0QScjRK1ziR3s4a6ox5&ust=1690547119887000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIiQhffwroADFQAAAAAdAAAAABAJ');
+  background-repeat: no-repeat;
+  object-fit: cover;
 }
 
 .main{
