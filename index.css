@@ -3,7 +3,11 @@ margin: 0;
 padding: 0;
 }
 body{
+  margin: 0;
+  padding: 0;
   background-image: url('https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png');
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
