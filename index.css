@@ -287,10 +287,17 @@ ul li a:hover{
  } 
 
 }
-@media screen and (orientation: portrait) and (max-width: 600px){
+@media (orientation: portrait) and (max-width: 600px){
   .form,
   .par{
     display: inline;
     width: 100%;
+  }
+  .h1{
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  .cn{
+    display: none;
   }
  }
