@@ -288,7 +288,7 @@ ul li a:hover{
  } 
 
 }
-@media (max-width: 600px){
+@media (max-width: 600px) and (orientation: portrait){
 *{
   padding: 10px 0;
   margin: auto;
