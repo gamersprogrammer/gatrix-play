@@ -287,7 +287,7 @@ ul li a:hover{
  } 
 
 }
-@media (orientation: portrait) and (max-width: 600px){
+@media (min-width: 319px) and (max-width: 600px){
   .form,
   .par{
     display: inline;
