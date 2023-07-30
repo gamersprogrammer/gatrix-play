@@ -283,7 +283,7 @@ ul li a:hover{
   margin-top: 15px;
   margin-left: -15px;
  } 
- @media screen and (orientation: portrait) and (min-width: 500px){
+ @media screen and (orientation: portrait){
   *{
     padding: 10px 0;
     margin: auto;
@@ -489,7 +489,6 @@ ul li a:hover{
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 20px;
-  float: left;
   border: 5px solid white;
   border-radius: 15px;
   background:  rgba(136, 137, 219, 0.8);
@@ -516,14 +515,7 @@ ul li a:hover{
 }
 
 .btn{
-  width: 90px;
-  height: 35px;
-  border: 0.75px solid ;
-  margin-top: 5px;
-  font-size: 7.5px;
-  position: absolute;
-  top: auto;
-  left: 330px;
+  display: none;
 }
 .main{
   background-color: none;
@@ -531,24 +523,7 @@ ul li a:hover{
   height: 100vh;
 }
 ul{
-position: absolute;
-top: 200px;
-right: 150px;
-padding-bottom: 5px;
-
-}
-ul li{
-  margin-left: 62px;
-  list-style: none;
-  margin-top: 15px;
-  font-size: 25px;
-}
-ul li a{
-  text-decoration: none;
-  color: white;
-  font-family: Arial;
-  font-weight: bold;
-  transition: 0.3s ease-in-out;
+  display: inline;
 }
 .content .h1{
 font-family: 'Times New Roman';
@@ -556,35 +531,23 @@ font-size: 100px;
 padding-left: 20px;
 margin-top: 9%;
 letter-spacing: 2px;
-position: absolute;
-top: 10vh;
-left: 30%;
+align-items: center;
 }
 
 .content .par{
- position: absolute;
- top: 40vh;
- right: 600px;
  letter-spacing: 4px;
  font-family: Georgia, sans-serif;
  font-style: none;
  font-size: 35px;
  text-decoration: solid;
  line-height: 30px;
+ display: block;
+ text-align: justify;
+ width: 100%;
 
 }
 .content .cn{
-width: 115vw;
-height: 80px;
-background:  rgba(136, 137, 219, 0.8);
-border: 4px solid white;
-font-size: 40px;
-border-radius: 18px;
-transition: .4s ease-in-out;
-position: absolute;
-top: 100vh; 
-left: 10px;
-padding-top: auto;
+display: none;
 }
 
 .content .cn a{
@@ -603,13 +566,11 @@ font-weight: bold;;
 .h1{
 color: white;
 }
+  
 .form{
-width: 500px;
-height: 500px;
+width: 100%;
 background:linear-gradient(to top, rgba(238, 161, 98, 0.8)50%,rgba(238, 161, 98 ,0.8)50%);
-position: absolute;
-top: 45vh;
-left: 650px;
+display: inline;
 border-radius: 10px;
 padding: 25px;
 }
