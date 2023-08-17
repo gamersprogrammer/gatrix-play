@@ -9,8 +9,6 @@ body{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
 }
 
 .main{
@@ -287,17 +285,9 @@ ul li a:hover{
  } 
 
 }
-@media (min-width: 319px) and (max-width: 600px){
-  .form,
-  .par{
-    display: inline;
-    width: 100%;
-  }
-  .h1{
-    font-size: 3.5rem;
-    text-align: center;
-  }
-  .cn{
-    display: none;
+@media (max-width: 1200px){
+  .flex-container{
+    flex-direction: column;
+    height: 100%;
   }
  }
